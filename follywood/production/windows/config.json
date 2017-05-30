@@ -1,0 +1,22 @@
+{
+  "info": {
+    "config_version": "1.0.2"
+  },
+  "urls": {
+    "api_baseurl": "http://api.acme.com",
+    "pcs_baseurl": "http://pcs.acme.com/user-restrictions",
+    "channelfinder_baseurl": "http://acmefeed.channelfinder.net"
+  },
+  "analytics": {
+    "siteId": "follywood",
+    "rsid": "fsfollywoodwin8prod",
+    "ns": "acmeentertainment",
+    "trackingserver": "b.acme.com/",
+    "linkfilters": "javascript:,acme.com"
+  },
+  "legal": {
+    "webview_url_terms": "http://www.acme.com/terms",
+    "webview_url_privacy": "http://www.acme.com/privacy",
+    "webview_url_help": "http://www.acme.com/follywood/mobile/help/about"
+  }
+}

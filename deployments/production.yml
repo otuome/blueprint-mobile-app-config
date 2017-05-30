@@ -1,0 +1,56 @@
+# AppSpec File Reference
+#   http://docs.aws.amazon.com/codedeploy/latest/userguide/app-spec-ref.html
+version: 0.0
+os: linux
+files:
+  - source: follywood/production/
+    destination: /opt/bitnami/nginx/html/follywood
+permissions:
+  - object: /opt/bitnami/nginx/html/follywood
+    pattern: "*android*"
+    except:
+    owner: bitnami
+    group: bitnami
+    mode: 755
+    type:
+      - directory
+  - object: /opt/bitnami/nginx/html/follywood
+    pattern: "*ios*"
+    except:
+    owner: bitnami
+    group: bitnami
+    mode: 755
+    type:
+      - directory
+  - object: /opt/bitnami/nginx/html/follywood
+    pattern: "*windows*"
+    except:
+    owner: bitnami
+    group: bitnami
+    mode: 755
+    type:
+      - directory
+  - object: /opt/bitnami/nginx/html/follywood/android
+    pattern: "*.json"
+    except:
+    owner: bitnami
+    group: bitnami
+    mode: 644
+    type:
+      - file
+  - object: /opt/bitnami/nginx/html/follywood/ios
+    pattern: "*.json"
+    except:
+    owner: bitnami
+    group: bitnami
+    mode: 644
+    type:
+      - file
+  - object: /opt/bitnami/nginx/html/follywood/windows
+    pattern: "*.json"
+    except:
+    owner: bitnami
+    group: bitnami
+    mode: 644
+    type:
+      - file

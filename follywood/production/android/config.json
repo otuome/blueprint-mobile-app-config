@@ -1,0 +1,52 @@
+{
+  "info": {
+    "config_version": "1.0.1"
+  },
+  "urls": {
+    "api_baseurl": "http://api.acme.com/android",
+    "search": "http://gsa.acme.com",
+    "pcs_baseurl": "http://pcs.acme.com",
+    "shop_url": "http://shop.acme.com/?ecid=PRF-ACFW-420226&pa=PRF-ACFW-420226"
+  },
+  "urls_tv": {
+    "api_baseurl": "http://api.acme.com/androidtv",
+    "search": "http://gsa.acme.com",
+    "pcs_baseurl": "http://pcs.acme.com"
+  },
+  "application_mobile": {
+    "mandatory_version_code": "20",
+    "recommended_version_code": "21",
+    "min_android_sdk_version": 14,
+    "sunset_message": "Your device is no longer supported.",
+    "mandatory_message": "There is a new version of FollyWood. Please update to continue using the app.",
+    "recommended_message": "There is a new version of FollyWood"
+  },
+  "application_tv": {
+    "mandatory_version_code": "20",
+    "recommended_version_code": "21",
+    "min_android_sdk_version": 14,
+    "sunset_message": "Your device is no longer supported.",
+    "mandatory_message": "There is a new version of FollyWood. Please update to continue using the app.",
+    "recommended_message": "There is a new version of FollyWood"
+  },
+  "socialShare": {
+    "email": {
+      "title": "Check out FollyWood!",
+      "image_url": "http://www.acme.com/assets/follywood/img/bgs/mobile-large.jpg",
+      "body_desc_pre": "Check out FollyWood: ",
+      "body_video_basename": "FollyWood | ",
+      "body_share_baseurl": "http://staging.follywood.com/",
+      "body_hashtag": "#FollyWood #BestThingEver",
+      "body_desc_post": "!",
+      "hashtag": "#Acme #FollyWood #BestThingEver",
+      "handle": "user@acme.com"
+    }
+  },
+  "legal": {
+    "webview_url_terms": "http://www.acme.com/terms",
+    "webview_url_privacy": "http://www.acme.com/privacy",
+    "webview_url_eula": "http://www.acme.com/eula"
+  },
+  "chromecast_receiver": "803B4Q51",
+  "nielsen_app_id": "T5CFA2B40-4172-481F-B75D-C911B71RO808"
+}

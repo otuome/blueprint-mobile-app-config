@@ -1,0 +1,60 @@
+{
+  "info": {
+    "config_version": "1.0.2"
+  },
+  "urls": {
+    "api_baseurl": "http://api.acme.com/ios/",
+    "pcs_baseurl": "http://pcs.acme.com",
+    "shop_url": "http://shop.acme.com/?ecid=PRF-ACFW-420226&pa=PRF-ACFW-420226"
+  },
+  "application_mobile": {
+      "mandatory_version_code": "1.4",
+      "recommended_version_code": "1.4",
+      "min_ios_version": "0.0",
+      "sunset_message": "Welcome to the FollyWood App",
+      "mandatory_message": "There is a new version of FollyWood. Please update to continue using the app.",
+      "recommended_message": "There is a new version of FollyWood"
+  },
+  "legal": {
+    "webview_url_terms": "http://www.acme.com/terms",
+    "webview_url_privacy": "http://www.acme.com/privacy",
+    "webview_url_eula": "http://www.acme.com/eula"
+  }, 
+  "socialMedia": {
+    "twitter": {
+      "title": "FollyWood",
+      "image_url": "",
+      "share_desc_prefix": "Check out this video from FollyWood: ",
+      "share_video_basename": "FollyWood | ",
+      "share_baseurl": "http://www.follywood.com/",
+      "share_hashtag": "#FollyWood #BestThingEver",
+      "share_desc_suffix": "!",
+      "hashtag": "#Acme #FollyWood #BestThingEver",
+      "handle": "@follywood"
+    },
+    "facebook": {
+      "title": "FollyWood",
+      "image_url": "",
+      "share_desc_prefix": "Check out FollyWood: ",
+      "share_video_basename": "FollyWood | ",
+      "share_baseurl": "http://www.follywood.com/",
+      "share_hashtag": "#FollyWood #BestThingEver",
+      "share_desc_suffix": "!",
+      "hashtag": "#Acme #FollyWood #BestThingEver",
+      "handle": "@follywood"
+    },
+    "email": {
+      "title": "Check out FollyWood!",
+      "image_url": "http://www.acme.com/assets/follywood/img/bgs/mobile-large.jpg",
+      "share_desc_prefix": "Check out FollyWood: ",
+      "share_video_basename": "FollyWood | ",
+      "share_baseurl": "http://www.follywood.com/",
+      "share_hashtag": "#FollyWood #BestThingEver",
+      "share_desc_suffix": "!",
+      "hashtag": "#Acme #FollyWood #BestThingEver",
+      "handle": "user@acme.com"
+    }
+  },
+  "chromecast_receiver": "803B4Q51",
+  "nielsen_app_id": "T5CFA2B40-4172-481F-B75D-C911B71RO808"
+}

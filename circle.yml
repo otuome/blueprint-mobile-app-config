@@ -1,0 +1,32 @@
+test:
+  override:
+    - if [[ $CIRCLE_BRANCH = "dev" ]]; then grunt stage && cp deployments/staging.yml appspec.yml; fi
+    - if [[ $CIRCLE_BRANCH = "master" ]]; then grunt prod && cp deployments/production.yml appspec.yml; fi
+
+deployment:
+  staging:
+    branch: dev
+    codedeploy:
+      FollyWood_Mobile_Configs:
+        application_root: /
+        region: us-west-2
+        revision_location:
+          revision_type: S3
+          s3_location:
+            bucket: follywood-mobile-configs-staging
+            key_pattern: follywood-app-config-staging-{COMMIT}
+        deployment_group: Staging
+        deployment_config: CodeDeployDefault.AllAtOnce
+  production:
+    branch: master
+    codedeploy:
+      FollyWood_Mobile_Configs:
+        application_root: /
+        region: us-west-2
+        revision_location:
+          revision_type: S3
+          s3_location:
+            bucket: follywood-mobile-configs-production
+            key_pattern: follywood-app-config-production-{COMMIT}
+        deployment_group: Production
+        deployment_config: CodeDeployDefault.AllAtOnce

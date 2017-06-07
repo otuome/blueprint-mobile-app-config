@@ -1,4 +1,4 @@
-**Staging:** [![Circle CI](https://circleci.com/gh/acme/follywood-app-config/tree/dev.svg?style=shield&circle-token=f2e79e17c3af0bf4f8182aba57710ba7ee1472c1)](https://circleci.com/gh/acme/follywood-app-config/tree/dev)  |  **Production:** [![Circle CI](https://circleci.com/gh/acme/follywood-app-config/tree/master.svg?style=shield&circle-token=f2e79e17c3af0bf4f8182aba57710ba7ee1472c1)](https://circleci.com/gh/acme/follywood-app-config/tree/master)
+**Staging:** [![CircleCI](https://circleci.com/gh/otuome/blueprint-mobile-app-config/tree/dev.svg?style=svg)](https://circleci.com/gh/otuome/blueprint-mobile-app-config/tree/dev)  |  **Production:** [![CircleCI](https://circleci.com/gh/otuome/blueprint-mobile-app-config/tree/master.svg?style=svg)](https://circleci.com/gh/otuome/blueprint-mobile-app-config/tree/master)
 
 # FollyWood App Configs
 This repository contains configuration files for the FollyWood Mobile and CDO applications.  
